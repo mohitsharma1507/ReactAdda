@@ -25,7 +25,8 @@ const Post = ({ post }) => {
           </span>
         ))}
         <div className="alert alert-success reactions" role="alert">
-          This post has been reacted by {post.reactions} people.
+          This post has been reacted by {post.reactions.likes} people who liked
+          it and {post.reactions.dislikes} people who disliked it.
         </div>
       </div>
     </div>

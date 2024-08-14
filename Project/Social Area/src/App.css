@@ -7,7 +7,7 @@
 }
 
 .slidebar {
-  height: 84rem;
+  height: 754rem;
 }
 .post-card {
   margin: 20px 50px;
@@ -25,4 +25,7 @@
   width: 80%;
   margin-top: 50px;
   margin-left: 10%;
+}
+.spinner {
+  margin: 10% 0;
 }
