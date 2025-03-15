@@ -1,0 +1,113 @@
+/* .container {
+  min-height: 80vh;
+  background-color: lightblue;
+}
+
+h1 {
+  margin-left: 40rem;
+  font-weight: bolder;
+}
+
+.allTodo {
+  margin-left: 37.5rem;
+}
+
+input {
+  width: 15rem;
+}
+
+.add {
+  background-color: darkslateblue;
+  color: white;
+}
+ */
+.container {
+  min-height: 105vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+
+.todo {
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 1rem 0;
+  font-weight: bolder;
+  color: darkslateblue;
+}
+
+.allTodo {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+input {
+  width: 15rem;
+  padding: 0.5rem;
+  border: 1px solid darkslateblue;
+  border-radius: 5px;
+}
+
+.add {
+  background-color: darkslateblue;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add:hover {
+  background-color: slateblue;
+}
+
+.todo-list {
+  margin-top: 1rem;
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  background: lightgray;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.checkBtn {
+  margin-left: 0.5rem;
+  background-color: gray;
+  color: white;
+  font-weight: 600;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.editBtn {
+  margin-left: 13rem;
+  background-color: greenyellow;
+  color: white;
+  font-weight: 600;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.delBtn {
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  border: 2px solid black;
+  border-radius: 5px;
+}
