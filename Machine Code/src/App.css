@@ -266,3 +266,40 @@ input{
   text-decoration: line-through;
   color: lightgrey;
 }
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Multicontainer{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+label{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+input{
+  height: 50px;
+  font-size: 20px;
+  padding: 7px;
+  margin: 30px 0;
+}
+
+button{
+  width: 120px;
+  height: 45px;
+  border: none;
+  font-size: 20px;
+  background-color: purple;
+  color: white;
+  border-radius:5px;
+  font-weight: bold;
+}
