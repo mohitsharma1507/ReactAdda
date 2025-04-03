@@ -1,4 +1,4 @@
-.container{
+/* .container{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,7 +36,7 @@ header h1{
   background-color: #0056b3;
 }
 
-/* Employee form */
+ Employee form 
 .addEmployee_create {
   display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@ header h1{
   margin-bottom: 10px;
 }
 
-/* Input field styling */
+Input field styling 
 .addEmployee_create input {
   width: 100%;
   padding: 10px;
@@ -66,7 +66,7 @@ header h1{
   border-radius: 5px;
 }
 
-/* Submit button */
+/* Submit button 
 .addEmployee_create--submit {
   background-color: #28a745;
   color: white;
@@ -79,7 +79,7 @@ header h1{
   background-color: #218838;
 }
 
-/* Close Form Button */
+/* Close Form Button 
 .CloseBtn {
   background-color: red;
   color: white;
@@ -95,7 +95,7 @@ header h1{
   background-color: darkred;
 }
 
-/* Form overlay background */
+/* Form overlay background 
 .overlay {
   position: fixed;
   top: 0;
@@ -309,4 +309,37 @@ button{
   justify-content: space-between;
   align-items: center;
   padding: 10rem;
+} */
+
+.container{
+  text-align: center;
+}
+
+input{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align:center;
+}
+
+input:focus{
+  outline-color: blue;
+}
+
+button{
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: purple;
+  border: none;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.error{
+  border: 1px solid red;
 }
