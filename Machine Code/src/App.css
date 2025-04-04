@@ -310,7 +310,7 @@ button{
   align-items: center;
   padding: 10rem;
 } */
-
+/* LoginOtp
 .container{
   text-align: center;
 }
@@ -343,3 +343,15 @@ button{
 .error{
   border: 1px solid red;
 }
+
+*/
+
+/* BAR CSS */
+
+.Bar {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  text-align: center;
+  background: #f1f5f9;
+}
+

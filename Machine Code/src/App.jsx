@@ -1,3 +1,4 @@
+import BarCharts from "./components/Bar";
 import CountTimer from "./components/CountTimer";
 import EMI from "./components/EMI Calulator";
 import Employee from "./components/Employee Database Management";
@@ -9,7 +10,7 @@ import ShoppingCart from "./components/ShoppingCart";
 import UndorableCount from "./components/UndorableCount";
 
 const App = () => {
-  return <LoginOtp />;
+  return <BarCharts />;
 };
 
 export default App;
