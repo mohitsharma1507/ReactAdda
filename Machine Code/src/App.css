@@ -348,10 +348,40 @@ button{
 
 /* BAR CSS */
 
-.Bar {
+/* .Bar {
   font-family: 'Segoe UI', sans-serif;
   padding: 2rem;
   text-align: center;
   background: #f1f5f9;
+} */
+
+/* Progress Bar */
+
+body{
+  font-family: sans-serif;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.progress{
+  width: 100%;
+  height: 25px;
+  background-color: #eee;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.progress span{
+  height: 100%;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  transition: width 0.4s ease-in-out;
+}
