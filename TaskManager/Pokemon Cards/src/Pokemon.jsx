@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Pokemon() {
@@ -9,7 +10,7 @@ function Pokemon() {
 
   const fetchData = async () => {
     try {
-      const res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=124");
+      const res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=150");
       const data = await res.json();
       const detailedPokemonData = data.results.map(async (curPokemon) => {
         const res = await fetch(curPokemon.url);
@@ -32,7 +33,7 @@ function Pokemon() {
 
   const searchData = apiData
     ? apiData.filter((curPokemon) =>
-        curPokemon.name.toLowerCase().includes(search.toLowerCase())
+        curPokemon.name.toLowerCase().includes(search.toLowerCase()),
       )
     : [];
 
@@ -53,7 +54,10 @@ function Pokemon() {
   }
 
   return (
-    <section className="container mt-5">
+    <section
+      className="container"
+      style={{ maxWidth: "100%", backgroundColor: "#eff3ff" }}
+    >
       <header className="text-center mb-5">
         <h1
           style={{
@@ -62,10 +66,10 @@ function Pokemon() {
             color: "#000",
           }}
         >
-          Let's Catch Pikachu!
+          Let's Catch Pikachu!!!
         </h1>
       </header>
-      <div className="searchBox">
+      <div className="searchBox" style={{ marginLeft: "3rem" }}>
         <input
           type="text"
           placeholder="search pokemon"
@@ -122,6 +126,11 @@ function Pokemon() {
                 <div className="col">
                   <p className="pokemon-info m-0">
                     <b>Speed:</b> {curPokemon.stats[5].base_stat}
+                  </p>
+                </div>
+                <div className="col">
+                  <p className="pokemon-info m-0">
+                    <b>Id:</b> {curPokemon.id}
                   </p>
                 </div>
               </div>
