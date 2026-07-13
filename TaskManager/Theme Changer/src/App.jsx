@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <header>
-        <h1>Theme Switcher</h1>
+        <h1>Theme Switcher Workspace</h1>
         <button onClick={toggleTheme}>
           Switch to {theme === "light" ? "Dark" : "Light"} Mode
         </button>
