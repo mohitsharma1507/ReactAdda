@@ -15,6 +15,9 @@ import Todo3 from "./Todo3.jsx";
 import Attempt from "./Attempt.jsx";
 import Kaam from "./practice456.jsx";
 import { CountProvider } from "./practice45.jsx";
+import Counter from "./Counter.jsx";
+import BackgroundChanger from "./BackgroundChanger.jsx";
+import Learning from "./Learning.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -24,12 +27,15 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <Data /> */}
     {/* <Todo /> */}
     {/* <AdvanceCount /> */}
-    <CountProvider>
+    {/* <CountProvider>
       <Kaam />
-    </CountProvider>
+    </CountProvider> */}
     {/* <CreateForm /> */}
     {/* <Practice /> */}
     {/* <Todo3 /> */}
     {/* <Attempt /> */}
-  </React.StrictMode>
+    {/* <Counter /> */}
+    {/* <BackgroundChanger /> */}
+    <Learning />
+  </React.StrictMode>,
 );
