@@ -1,3 +1,5 @@
+import { useCounter } from "./custom/counter";
+
 function CustomCount() {
   const { count, increment, decrement, reset } = useCounter(0);
   return (
