@@ -18,6 +18,7 @@ import { CountProvider } from "./practice45.jsx";
 import Counter from "./Counter.jsx";
 import BackgroundChanger from "./BackgroundChanger.jsx";
 import Learning from "./Learning.jsx";
+import CustomCount from "./CustomCount.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -37,5 +38,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <Counter /> */}
     {/* <BackgroundChanger /> */}
     <Learning />
+    <CustomCount />
   </React.StrictMode>,
 );
