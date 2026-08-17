@@ -19,6 +19,7 @@ import Counter from "./Counter.jsx";
 import BackgroundChanger from "./BackgroundChanger.jsx";
 import Learning from "./Learning.jsx";
 import CustomCount from "./CustomCount.jsx";
+import Activities from "./Activity.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -37,7 +38,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <Attempt /> */}
     {/* <Counter /> */}
     {/* <BackgroundChanger /> */}
-    <Learning />
-    <CustomCount />
+    {/* <Learning />
+    <CustomCount /> */}
+
+    <Activities />
   </React.StrictMode>,
 );
